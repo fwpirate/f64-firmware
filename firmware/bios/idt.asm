@@ -1,1029 +1,773 @@
-load_IDT:
+load_idt:
     lidt idt
     ret
 
 idt_handler_0:
-    mov BYTE [0xE0000000], 0
     hlt
 
 idt_handler_1:
-    mov BYTE [0xE0000000], 1
     hlt
 
 idt_handler_2:
-    mov BYTE [0xE0000000], 2
     hlt
 
 idt_handler_3:
-    mov BYTE [0xE0000000], 3
     hlt
 
 idt_handler_4:
-    mov BYTE [0xE0000000], 4
     hlt
 
 idt_handler_5:
-    mov BYTE [0xE0000000], 5
     hlt
 
 idt_handler_6:
-    mov BYTE [0xE0000000], 6
     hlt
 
 idt_handler_7:
-    mov BYTE [0xE0000000], 7
     hlt
 
 idt_handler_8:
-    mov BYTE [0xE0000000], 8
     hlt
 
 idt_handler_9:
-    mov BYTE [0xE0000000], 9
     hlt
 
 idt_handler_10:
-    mov BYTE [0xE0000000], 10
     hlt
 
 idt_handler_11:
-    mov BYTE [0xE0000000], 11
     hlt
 
 idt_handler_12:
-    mov BYTE [0xE0000000], 12
     hlt
 
 idt_handler_13:
-    mov BYTE [0xE0000000], 13
     hlt
 
 idt_handler_14:
-    mov BYTE [0xE0000000], 14
     hlt
 
 idt_handler_15:
-    mov BYTE [0xE0000000], 15
     hlt
 
 idt_handler_16:
-    mov BYTE [0xE0000000], 16
     hlt
 
 idt_handler_17:
-    mov BYTE [0xE0000000], 17
     hlt
 
 idt_handler_18:
-    mov BYTE [0xE0000000], 18
     hlt
 
 idt_handler_19:
-    mov BYTE [0xE0000000], 19
     hlt
 
 idt_handler_20:
-    mov BYTE [0xE0000000], 20
     hlt
 
 idt_handler_21:
-    mov BYTE [0xE0000000], 21
     hlt
 
 idt_handler_22:
-    mov BYTE [0xE0000000], 22
     hlt
 
 idt_handler_23:
-    mov BYTE [0xE0000000], 23
     hlt
 
 idt_handler_24:
-    mov BYTE [0xE0000000], 24
     hlt
 
 idt_handler_25:
-    mov BYTE [0xE0000000], 25
     hlt
 
 idt_handler_26:
-    mov BYTE [0xE0000000], 26
     hlt
 
 idt_handler_27:
-    mov BYTE [0xE0000000], 27
     hlt
 
 idt_handler_28:
-    mov BYTE [0xE0000000], 28
     hlt
 
 idt_handler_29:
-    mov BYTE [0xE0000000], 29
     hlt
 
 idt_handler_30:
-    mov BYTE [0xE0000000], 30
     hlt
 
 idt_handler_31:
-    mov BYTE [0xE0000000], 31
     hlt
 
 idt_handler_32:
-    mov BYTE [0xE0000000], 32
     hlt
 
 idt_handler_33:
-    mov BYTE [0xE0000000], 33
     hlt
 
 idt_handler_34:
-    mov BYTE [0xE0000000], 34
     hlt
 
 idt_handler_35:
-    mov BYTE [0xE0000000], 35
     hlt
 
 idt_handler_36:
-    mov BYTE [0xE0000000], 36
     hlt
 
 idt_handler_37:
-    mov BYTE [0xE0000000], 37
     hlt
 
 idt_handler_38:
-    mov BYTE [0xE0000000], 38
     hlt
 
 idt_handler_39:
-    mov BYTE [0xE0000000], 39
     hlt
 
 idt_handler_40:
-    mov BYTE [0xE0000000], 40
     hlt
 
 idt_handler_41:
-    mov BYTE [0xE0000000], 41
     hlt
 
 idt_handler_42:
-    mov BYTE [0xE0000000], 42
     hlt
 
 idt_handler_43:
-    mov BYTE [0xE0000000], 43
     hlt
 
 idt_handler_44:
-    mov BYTE [0xE0000000], 44
     hlt
 
 idt_handler_45:
-    mov BYTE [0xE0000000], 45
     hlt
 
 idt_handler_46:
-    mov BYTE [0xE0000000], 46
     hlt
 
 idt_handler_47:
-    mov BYTE [0xE0000000], 47
     hlt
 
 idt_handler_48:
-    mov BYTE [0xE0000000], 48
     hlt
 
 idt_handler_49:
-    mov BYTE [0xE0000000], 49
     hlt
 
 idt_handler_50:
-    mov BYTE [0xE0000000], 50
     hlt
 
 idt_handler_51:
-    mov BYTE [0xE0000000], 51
     hlt
 
 idt_handler_52:
-    mov BYTE [0xE0000000], 52
     hlt
 
 idt_handler_53:
-    mov BYTE [0xE0000000], 53
     hlt
 
 idt_handler_54:
-    mov BYTE [0xE0000000], 54
     hlt
 
 idt_handler_55:
-    mov BYTE [0xE0000000], 55
     hlt
 
 idt_handler_56:
-    mov BYTE [0xE0000000], 56
     hlt
 
 idt_handler_57:
-    mov BYTE [0xE0000000], 57
     hlt
 
 idt_handler_58:
-    mov BYTE [0xE0000000], 58
     hlt
 
 idt_handler_59:
-    mov BYTE [0xE0000000], 59
     hlt
 
 idt_handler_60:
-    mov BYTE [0xE0000000], 60
     hlt
 
 idt_handler_61:
-    mov BYTE [0xE0000000], 61
     hlt
 
 idt_handler_62:
-    mov BYTE [0xE0000000], 62
     hlt
 
 idt_handler_63:
-    mov BYTE [0xE0000000], 63
     hlt
 
 idt_handler_64:
-    mov BYTE [0xE0000000], 64
     hlt
 
 idt_handler_65:
-    mov BYTE [0xE0000000], 65
     hlt
 
 idt_handler_66:
-    mov BYTE [0xE0000000], 66
     hlt
 
 idt_handler_67:
-    mov BYTE [0xE0000000], 67
     hlt
 
 idt_handler_68:
-    mov BYTE [0xE0000000], 68
     hlt
 
 idt_handler_69:
-    mov BYTE [0xE0000000], 69
     hlt
 
 idt_handler_70:
-    mov BYTE [0xE0000000], 70
     hlt
 
 idt_handler_71:
-    mov BYTE [0xE0000000], 71
     hlt
 
 idt_handler_72:
-    mov BYTE [0xE0000000], 72
     hlt
 
 idt_handler_73:
-    mov BYTE [0xE0000000], 73
     hlt
 
 idt_handler_74:
-    mov BYTE [0xE0000000], 74
     hlt
 
 idt_handler_75:
-    mov BYTE [0xE0000000], 75
     hlt
 
 idt_handler_76:
-    mov BYTE [0xE0000000], 76
     hlt
 
 idt_handler_77:
-    mov BYTE [0xE0000000], 77
     hlt
 
 idt_handler_78:
-    mov BYTE [0xE0000000], 78
     hlt
 
 idt_handler_79:
-    mov BYTE [0xE0000000], 79
     hlt
 
 idt_handler_80:
-    mov BYTE [0xE0000000], 80
     hlt
 
 idt_handler_81:
-    mov BYTE [0xE0000000], 81
     hlt
 
 idt_handler_82:
-    mov BYTE [0xE0000000], 82
     hlt
 
 idt_handler_83:
-    mov BYTE [0xE0000000], 83
     hlt
 
 idt_handler_84:
-    mov BYTE [0xE0000000], 84
     hlt
 
 idt_handler_85:
-    mov BYTE [0xE0000000], 85
     hlt
 
 idt_handler_86:
-    mov BYTE [0xE0000000], 86
     hlt
 
 idt_handler_87:
-    mov BYTE [0xE0000000], 87
     hlt
 
 idt_handler_88:
-    mov BYTE [0xE0000000], 88
     hlt
 
 idt_handler_89:
-    mov BYTE [0xE0000000], 89
     hlt
 
 idt_handler_90:
-    mov BYTE [0xE0000000], 90
     hlt
 
 idt_handler_91:
-    mov BYTE [0xE0000000], 91
     hlt
 
 idt_handler_92:
-    mov BYTE [0xE0000000], 92
     hlt
 
 idt_handler_93:
-    mov BYTE [0xE0000000], 93
     hlt
 
 idt_handler_94:
-    mov BYTE [0xE0000000], 94
     hlt
 
 idt_handler_95:
-    mov BYTE [0xE0000000], 95
     hlt
 
 idt_handler_96:
-    mov BYTE [0xE0000000], 96
     hlt
 
 idt_handler_97:
-    mov BYTE [0xE0000000], 97
     hlt
 
 idt_handler_98:
-    mov BYTE [0xE0000000], 98
     hlt
 
 idt_handler_99:
-    mov BYTE [0xE0000000], 99
     hlt
 
 idt_handler_100:
-    mov BYTE [0xE0000000], 100
     hlt
 
 idt_handler_101:
-    mov BYTE [0xE0000000], 101
     hlt
 
 idt_handler_102:
-    mov BYTE [0xE0000000], 102
     hlt
 
 idt_handler_103:
-    mov BYTE [0xE0000000], 103
     hlt
 
 idt_handler_104:
-    mov BYTE [0xE0000000], 104
     hlt
 
 idt_handler_105:
-    mov BYTE [0xE0000000], 105
     hlt
 
 idt_handler_106:
-    mov BYTE [0xE0000000], 106
     hlt
 
 idt_handler_107:
-    mov BYTE [0xE0000000], 107
     hlt
 
 idt_handler_108:
-    mov BYTE [0xE0000000], 108
     hlt
 
 idt_handler_109:
-    mov BYTE [0xE0000000], 109
     hlt
 
 idt_handler_110:
-    mov BYTE [0xE0000000], 110
     hlt
 
 idt_handler_111:
-    mov BYTE [0xE0000000], 111
     hlt
 
 idt_handler_112:
-    mov BYTE [0xE0000000], 112
     hlt
 
 idt_handler_113:
-    mov BYTE [0xE0000000], 113
     hlt
 
 idt_handler_114:
-    mov BYTE [0xE0000000], 114
     hlt
 
 idt_handler_115:
-    mov BYTE [0xE0000000], 115
     hlt
 
 idt_handler_116:
-    mov BYTE [0xE0000000], 116
     hlt
 
 idt_handler_117:
-    mov BYTE [0xE0000000], 117
     hlt
 
 idt_handler_118:
-    mov BYTE [0xE0000000], 118
     hlt
 
 idt_handler_119:
-    mov BYTE [0xE0000000], 119
     hlt
 
 idt_handler_120:
-    mov BYTE [0xE0000000], 120
     hlt
 
 idt_handler_121:
-    mov BYTE [0xE0000000], 121
     hlt
 
 idt_handler_122:
-    mov BYTE [0xE0000000], 122
     hlt
 
 idt_handler_123:
-    mov BYTE [0xE0000000], 123
     hlt
 
 idt_handler_124:
-    mov BYTE [0xE0000000], 124
     hlt
 
 idt_handler_125:
-    mov BYTE [0xE0000000], 125
     hlt
 
 idt_handler_126:
-    mov BYTE [0xE0000000], 126
     hlt
 
 idt_handler_127:
-    mov BYTE [0xE0000000], 127
     hlt
 
 idt_handler_128:
-    mov BYTE [0xE0000000], 128
     hlt
 
 idt_handler_129:
-    mov BYTE [0xE0000000], 129
     hlt
 
 idt_handler_130:
-    mov BYTE [0xE0000000], 130
     hlt
 
 idt_handler_131:
-    mov BYTE [0xE0000000], 131
     hlt
 
 idt_handler_132:
-    mov BYTE [0xE0000000], 132
     hlt
 
 idt_handler_133:
-    mov BYTE [0xE0000000], 133
     hlt
 
 idt_handler_134:
-    mov BYTE [0xE0000000], 134
     hlt
 
 idt_handler_135:
-    mov BYTE [0xE0000000], 135
     hlt
 
 idt_handler_136:
-    mov BYTE [0xE0000000], 136
     hlt
 
 idt_handler_137:
-    mov BYTE [0xE0000000], 137
     hlt
 
 idt_handler_138:
-    mov BYTE [0xE0000000], 138
     hlt
 
 idt_handler_139:
-    mov BYTE [0xE0000000], 139
     hlt
 
 idt_handler_140:
-    mov BYTE [0xE0000000], 140
     hlt
 
 idt_handler_141:
-    mov BYTE [0xE0000000], 141
     hlt
 
 idt_handler_142:
-    mov BYTE [0xE0000000], 142
     hlt
 
 idt_handler_143:
-    mov BYTE [0xE0000000], 143
     hlt
 
 idt_handler_144:
-    mov BYTE [0xE0000000], 144
     hlt
 
 idt_handler_145:
-    mov BYTE [0xE0000000], 145
     hlt
 
 idt_handler_146:
-    mov BYTE [0xE0000000], 146
     hlt
 
 idt_handler_147:
-    mov BYTE [0xE0000000], 147
     hlt
 
 idt_handler_148:
-    mov BYTE [0xE0000000], 148
     hlt
 
 idt_handler_149:
-    mov BYTE [0xE0000000], 149
     hlt
 
 idt_handler_150:
-    mov BYTE [0xE0000000], 150
     hlt
 
 idt_handler_151:
-    mov BYTE [0xE0000000], 151
     hlt
 
 idt_handler_152:
-    mov BYTE [0xE0000000], 152
     hlt
 
 idt_handler_153:
-    mov BYTE [0xE0000000], 153
     hlt
 
 idt_handler_154:
-    mov BYTE [0xE0000000], 154
     hlt
 
 idt_handler_155:
-    mov BYTE [0xE0000000], 155
     hlt
 
 idt_handler_156:
-    mov BYTE [0xE0000000], 156
     hlt
 
 idt_handler_157:
-    mov BYTE [0xE0000000], 157
     hlt
 
 idt_handler_158:
-    mov BYTE [0xE0000000], 158
     hlt
 
 idt_handler_159:
-    mov BYTE [0xE0000000], 159
     hlt
 
 idt_handler_160:
-    mov BYTE [0xE0000000], 160
     hlt
 
 idt_handler_161:
-    mov BYTE [0xE0000000], 161
     hlt
 
 idt_handler_162:
-    mov BYTE [0xE0000000], 162
     hlt
 
 idt_handler_163:
-    mov BYTE [0xE0000000], 163
     hlt
 
 idt_handler_164:
-    mov BYTE [0xE0000000], 164
     hlt
 
 idt_handler_165:
-    mov BYTE [0xE0000000], 165
     hlt
 
 idt_handler_166:
-    mov BYTE [0xE0000000], 166
     hlt
 
 idt_handler_167:
-    mov BYTE [0xE0000000], 167
     hlt
 
 idt_handler_168:
-    mov BYTE [0xE0000000], 168
     hlt
 
 idt_handler_169:
-    mov BYTE [0xE0000000], 169
     hlt
 
 idt_handler_170:
-    mov BYTE [0xE0000000], 170
     hlt
 
 idt_handler_171:
-    mov BYTE [0xE0000000], 171
     hlt
 
 idt_handler_172:
-    mov BYTE [0xE0000000], 172
     hlt
 
 idt_handler_173:
-    mov BYTE [0xE0000000], 173
     hlt
 
 idt_handler_174:
-    mov BYTE [0xE0000000], 174
     hlt
 
 idt_handler_175:
-    mov BYTE [0xE0000000], 175
     hlt
 
 idt_handler_176:
-    mov BYTE [0xE0000000], 176
     hlt
 
 idt_handler_177:
-    mov BYTE [0xE0000000], 177
     hlt
 
 idt_handler_178:
-    mov BYTE [0xE0000000], 178
     hlt
 
 idt_handler_179:
-    mov BYTE [0xE0000000], 179
     hlt
 
 idt_handler_180:
-    mov BYTE [0xE0000000], 180
     hlt
 
 idt_handler_181:
-    mov BYTE [0xE0000000], 181
     hlt
 
 idt_handler_182:
-    mov BYTE [0xE0000000], 182
     hlt
 
 idt_handler_183:
-    mov BYTE [0xE0000000], 183
     hlt
 
 idt_handler_184:
-    mov BYTE [0xE0000000], 184
     hlt
 
 idt_handler_185:
-    mov BYTE [0xE0000000], 185
     hlt
 
 idt_handler_186:
-    mov BYTE [0xE0000000], 186
     hlt
 
 idt_handler_187:
-    mov BYTE [0xE0000000], 187
     hlt
 
 idt_handler_188:
-    mov BYTE [0xE0000000], 188
     hlt
 
 idt_handler_189:
-    mov BYTE [0xE0000000], 189
     hlt
 
 idt_handler_190:
-    mov BYTE [0xE0000000], 190
     hlt
 
 idt_handler_191:
-    mov BYTE [0xE0000000], 191
     hlt
 
 idt_handler_192:
-    mov BYTE [0xE0000000], 192
     hlt
 
 idt_handler_193:
-    mov BYTE [0xE0000000], 193
     hlt
 
 idt_handler_194:
-    mov BYTE [0xE0000000], 194
     hlt
 
 idt_handler_195:
-    mov BYTE [0xE0000000], 195
     hlt
 
 idt_handler_196:
-    mov BYTE [0xE0000000], 196
     hlt
 
 idt_handler_197:
-    mov BYTE [0xE0000000], 197
     hlt
 
 idt_handler_198:
-    mov BYTE [0xE0000000], 198
     hlt
 
 idt_handler_199:
-    mov BYTE [0xE0000000], 199
     hlt
 
 idt_handler_200:
-    mov BYTE [0xE0000000], 200
     hlt
 
 idt_handler_201:
-    mov BYTE [0xE0000000], 201
     hlt
 
 idt_handler_202:
-    mov BYTE [0xE0000000], 202
     hlt
 
 idt_handler_203:
-    mov BYTE [0xE0000000], 203
     hlt
 
 idt_handler_204:
-    mov BYTE [0xE0000000], 204
     hlt
 
 idt_handler_205:
-    mov BYTE [0xE0000000], 205
     hlt
 
 idt_handler_206:
-    mov BYTE [0xE0000000], 206
     hlt
 
 idt_handler_207:
-    mov BYTE [0xE0000000], 207
     hlt
 
 idt_handler_208:
-    mov BYTE [0xE0000000], 208
     hlt
 
 idt_handler_209:
-    mov BYTE [0xE0000000], 209
     hlt
 
 idt_handler_210:
-    mov BYTE [0xE0000000], 210
     hlt
 
 idt_handler_211:
-    mov BYTE [0xE0000000], 211
     hlt
 
 idt_handler_212:
-    mov BYTE [0xE0000000], 212
     hlt
 
 idt_handler_213:
-    mov BYTE [0xE0000000], 213
     hlt
 
 idt_handler_214:
-    mov BYTE [0xE0000000], 214
     hlt
 
 idt_handler_215:
-    mov BYTE [0xE0000000], 215
     hlt
 
 idt_handler_216:
-    mov BYTE [0xE0000000], 216
     hlt
 
 idt_handler_217:
-    mov BYTE [0xE0000000], 217
     hlt
 
 idt_handler_218:
-    mov BYTE [0xE0000000], 218
     hlt
 
 idt_handler_219:
-    mov BYTE [0xE0000000], 219
     hlt
 
 idt_handler_220:
-    mov BYTE [0xE0000000], 220
     hlt
 
 idt_handler_221:
-    mov BYTE [0xE0000000], 221
     hlt
 
 idt_handler_222:
-    mov BYTE [0xE0000000], 222
     hlt
 
 idt_handler_223:
-    mov BYTE [0xE0000000], 223
     hlt
 
 idt_handler_224:
-    mov BYTE [0xE0000000], 224
     hlt
 
 idt_handler_225:
-    mov BYTE [0xE0000000], 225
     hlt
 
 idt_handler_226:
-    mov BYTE [0xE0000000], 226
     hlt
 
 idt_handler_227:
-    mov BYTE [0xE0000000], 227
     hlt
 
 idt_handler_228:
-    mov BYTE [0xE0000000], 228
     hlt
 
 idt_handler_229:
-    mov BYTE [0xE0000000], 229
     hlt
 
 idt_handler_230:
-    mov BYTE [0xE0000000], 230
     hlt
 
 idt_handler_231:
-    mov BYTE [0xE0000000], 231
     hlt
 
 idt_handler_232:
-    mov BYTE [0xE0000000], 232
     hlt
 
 idt_handler_233:
-    mov BYTE [0xE0000000], 233
     hlt
 
 idt_handler_234:
-    mov BYTE [0xE0000000], 234
     hlt
 
 idt_handler_235:
-    mov BYTE [0xE0000000], 235
     hlt
 
 idt_handler_236:
-    mov BYTE [0xE0000000], 236
     hlt
 
 idt_handler_237:
-    mov BYTE [0xE0000000], 237
     hlt
 
 idt_handler_238:
-    mov BYTE [0xE0000000], 238
     hlt
 
 idt_handler_239:
-    mov BYTE [0xE0000000], 239
     hlt
 
 idt_handler_240:
-    mov BYTE [0xE0000000], 240
     hlt
 
 idt_handler_241:
-    mov BYTE [0xE0000000], 241
     hlt
 
 idt_handler_242:
-    mov BYTE [0xE0000000], 242
     hlt
 
 idt_handler_243:
-    mov BYTE [0xE0000000], 243
     hlt
 
 idt_handler_244:
-    mov BYTE [0xE0000000], 244
     hlt
 
 idt_handler_245:
-    mov BYTE [0xE0000000], 245
     hlt
 
 idt_handler_246:
-    mov BYTE [0xE0000000], 246
     hlt
 
 idt_handler_247:
-    mov BYTE [0xE0000000], 247
     hlt
 
 idt_handler_248:
-    mov BYTE [0xE0000000], 248
     hlt
 
 idt_handler_249:
-    mov BYTE [0xE0000000], 249
     hlt
 
 idt_handler_250:
-    mov BYTE [0xE0000000], 250
     hlt
 
 idt_handler_251:
-    mov BYTE [0xE0000000], 251
     hlt
 
 idt_handler_252:
-    mov BYTE [0xE0000000], 252
     hlt
 
 idt_handler_253:
-    mov BYTE [0xE0000000], 253
     hlt
 
 idt_handler_254:
-    mov BYTE [0xE0000000], 254
     hlt
 
 idt_handler_255:
-    mov BYTE [0xE0000000], 255
     hlt
 
 idt:
