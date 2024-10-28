@@ -14,7 +14,6 @@ setup:
     call main
 
     ; Exit protected mode
-    int 0x1
     mov cr0, 0
 
     ; Halt the processor to prevent further execution
